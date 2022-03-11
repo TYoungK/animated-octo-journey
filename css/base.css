@@ -129,6 +129,17 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+.tech-th-1{
+    width: 190px;
+    min-width: 190px;
+}
+.tech-th-2{
+    min-width: 200px;
+}
+.tech-th-3{
+    width: 112px;
+    min-width: 112px;
+}
 .pro-th-1{
     min-width: 117px;
 }
@@ -161,4 +172,10 @@ html {
 .wrapper-open{
     display: flex;
     position: fixed;
+}
+
+#summary ul{
+    list-style:disc;
+    padding-left: 1.5rem;
+    line-height: 3rem;
 }
