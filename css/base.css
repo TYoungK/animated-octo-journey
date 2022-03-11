@@ -51,7 +51,7 @@ html {
         -moz-transition: 1s;
         -o-transition: 1s;
         transition: 1s;
-        z-index: 1500;
+        z-index: 1000;
         }
 
  }
@@ -148,4 +148,17 @@ html {
 .profile-pic{
     height: 128px !important;
     object-fit: cover;
+}
+
+.wrapper{
+    display: none;
+    z-index: 1500;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.658);
+}
+
+.wrapper-open{
+    display: flex;
+    position: fixed;
 }

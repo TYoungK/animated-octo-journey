@@ -31,6 +31,7 @@ function setMenu(){
 function menuToggle(){
     document.getElementById('toggleValue').click();
     document.getElementsByClassName('sideMenu')[0].classList.toggle('menu-open');
+    document.getElementsByClassName('wrapper')[0].classList.toggle('wrapper-open');
 }
 
 function getTargetsTop(targets){
