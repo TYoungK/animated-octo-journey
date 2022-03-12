@@ -140,8 +140,17 @@ html {
     width: 112px;
     min-width: 112px;
 }
+.career-th-1{
+    min-width: 72px;
+}
+.career-th-2{
+    min-width: 234px;
+}
 .pro-th-1{
     min-width: 117px;
+}
+.pro-th-2{
+    min-width: 205px;
 }
 .pro-th-3{
     min-width: 86px;
@@ -149,7 +158,15 @@ html {
 .pro-th-4{
     min-width: 48px;
 }
-
+.edu-th-1{
+    min-width: 120px;    
+}
+.edu-th-2{
+    min-width: 118px;    
+}
+.edu-th-3{
+    min-width: 56px;    
+}
 .is-32x32{
     width: 32px;
     height: 32px;
@@ -178,4 +195,12 @@ html {
     list-style:disc;
     padding-left: 1.5rem;
     line-height: 3rem;
+}
+
+.table-scroll-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.table-scroll-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
 }
