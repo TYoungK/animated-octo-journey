@@ -24,14 +24,17 @@ function setMenu(){
     sectionlist = document.querySelectorAll('.section h1.title');
     sectionlist.forEach(
     section => document.querySelector('.menu-list')
-    .innerHTML += '<li><a href="#'+section.parentNode.id+'">'+section.textContent+'</a></li>'
+    .innerHTML += '<li><a href="#'+section.parentNode.id+'" onclick="menuToggle();">'+section.textContent+'</a></li>'
     );
 }
 
 function menuToggle(){
-    document.getElementById('toggleValue').click();
-    document.getElementsByClassName('sideMenu')[0].classList.toggle('menu-open');
-    document.getElementsByClassName('wrapper')[0].classList.toggle('wrapper-open');
+    if(getComputedStyle(document.getElementById('menuBtn')).display == "block"){
+        document.getElementById('toggleValue').click();
+        document.getElementsByClassName('sideMenu')[0].classList.toggle('menu-open');
+        document.getElementsByClassName('wrapper')[0].classList.toggle('wrapper-open');
+    }
+
 }
 
 function getTargetsTop(targets){
