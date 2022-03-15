@@ -197,6 +197,16 @@ html {
     line-height: 3rem;
 }
 
+#project ul{
+    list-style:square;
+    padding-left: 1.5rem;
+    line-height: 1.7rem;
+}
+
+#project hr{
+    margin: 0.5rem 0;
+}
+
 .table-scroll-hide {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
